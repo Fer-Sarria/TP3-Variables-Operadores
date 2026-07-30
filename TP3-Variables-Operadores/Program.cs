@@ -18,7 +18,9 @@ namespace TP3_Variables_Operadores
             //Ejercicio5();
             //Ejercicio6();
             //Ejercicio7();
-            Ejercicio8();
+            //Ejercicio8();
+            //Ejercicio9();
+            Ejercicio10();
         }
 
         static void Ejercicio1()
@@ -106,6 +108,25 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(16.8f / 4.1f);
             Console.WriteLine(16.8d / 4.1d);
             Console.WriteLine(16.8m / 4.1m);
+        }
+
+        // 9. Operador de resto entero. ¿Cuál es el resultado obtenido en cada caso?
+        static void Ejercicio9()
+        {
+            Console.WriteLine("\nResto entero");
+            Console.WriteLine(5 % 4);
+            Console.WriteLine(5 % -4);
+            Console.WriteLine(-5 % 4);
+            Console.WriteLine(-5 % -4);
+        }
+
+        // 10. Operador de Suma
+        static void Ejercicio10()
+        {
+            Console.WriteLine("\nSuma");
+            Console.WriteLine(5 + 4);
+            Console.WriteLine(5 + 4.3);
+            Console.WriteLine(5.1m + 4.2m);
         }
 
     }
