@@ -31,7 +31,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio18();
             //Ejercicio19();
             //Ejercicio20();
-            Ejercicio21();
+            //Ejercicio21();
+            Ejercicio22();
         }
 
         static void Ejercicio1()
@@ -262,6 +263,18 @@ namespace TP3_Variables_Operadores
         {
             Console.WriteLine("Second operand is evaluated.");
             return true;
+        }
+
+        // 22. Operador de suma lógica. ¿Cuáles son los resultados de las siguientes operaciones?
+        static void Ejercicio22()
+        {
+            Console.WriteLine("\nOperador de suma lógica (OR)");
+
+            bool a = true || SecondOperand();
+            Console.WriteLine(a);
+
+            bool b = false || SecondOperand();
+            Console.WriteLine(b);
         }
 
     }
