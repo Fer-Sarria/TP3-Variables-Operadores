@@ -17,7 +17,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio4();
             //Ejercicio5();
             //Ejercicio6();
-            Ejercicio7();
+            //Ejercicio7();
+            Ejercicio8();
         }
 
         static void Ejercicio1()
@@ -96,6 +97,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(-13 / 5);
             Console.WriteLine(13 / -5);
             Console.WriteLine(-13 / -5);
+        }
+
+        // 8. Operador de división de puntos flotantes. ¿Cuál es el resultado obtenido en cada caso?
+        static void Ejercicio8()
+        {
+            Console.WriteLine("\nDivisión de punto flotante");
+            Console.WriteLine(16.8f / 4.1f);
+            Console.WriteLine(16.8d / 4.1d);
+            Console.WriteLine(16.8m / 4.1m);
         }
 
     }
