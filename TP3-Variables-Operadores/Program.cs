@@ -197,6 +197,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(0.0 <= 5.1);
         }
 
+        // 17. Operador mayor o igual que. ¿Cuáles son los valores de las siguientes operaciones?
+        static void Ejercicio17()
+        {
+            Console.WriteLine("\nMayor o igual que");
+            Console.WriteLine(7.0 >= 5.1);
+            Console.WriteLine(5.1 >= 5.1);
+            Console.WriteLine(0.0 >= 5.1);
+        }
+
 
     }
 }
