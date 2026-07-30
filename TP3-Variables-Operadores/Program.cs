@@ -24,7 +24,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio11();
             //Ejercicio12();
             //Ejercicio13();
-            Ejercicio14();
+            //Ejercicio14();
+            Ejercicio15();
         }
 
         static void Ejercicio1()
@@ -175,6 +176,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(7.0 < 5.1);
             Console.WriteLine(5.1 < 5.1);
             Console.WriteLine(0.0 < 5.1);
+        }
+
+        // 15. Operador mayor que. ¿Cuáles son los valores de las siguientes operaciones?
+        static void Ejercicio15()
+        {
+            Console.WriteLine("\nMayor que");
+            Console.WriteLine(7.0 > 5.1);
+            Console.WriteLine(5.1 > 5.1);
+            Console.WriteLine(0.0 > 5.1);
         }
 
 
