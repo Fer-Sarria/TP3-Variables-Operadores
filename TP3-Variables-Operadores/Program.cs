@@ -21,7 +21,9 @@ namespace TP3_Variables_Operadores
             //Ejercicio8();
             //Ejercicio9();
             //Ejercicio10();
-            Ejercicio11();
+            //Ejercicio11();
+            //Ejercicio12();
+            Ejercicio13();
         }
 
         static void Ejercicio1()
@@ -146,6 +148,23 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(-5.2f % 2.0f);
             Console.WriteLine(5.9 % 3.1);
             Console.WriteLine(5.9m % 3.1m);
+        }
+
+        // 13. Operadores de asignación compuesta. ¿Qué hace cada operador de asignación compuesta?
+        static void Ejercicio13()
+        {
+            Console.WriteLine("\nAsignación compuesta");
+            int a = 5;
+            a += 9;
+            Console.WriteLine(a);
+            a -= 4;
+            Console.WriteLine(a);
+            a *= 2;
+            Console.WriteLine(a);
+            a /= 4;
+            Console.WriteLine(a);
+            a %= 3;
+            Console.WriteLine(a);
         }
 
 
