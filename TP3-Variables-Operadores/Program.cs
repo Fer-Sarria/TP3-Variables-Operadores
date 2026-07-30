@@ -35,5 +35,28 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(++a);
             Console.WriteLine(a);
         }
+
+
+        // 3. Operador de decremento de postfijo. ¿Qué sucede con i--?
+
+        static void Ejercicio3()
+        {
+            Console.WriteLine("\nOperador de decremento de postfijo. ¿Qué sucede con i--?");
+
+            int i = 3;
+            Console.WriteLine(i);
+            Console.WriteLine(i--);
+            Console.WriteLine(i);
+        }
+
+        // 4. Operador de decremento de prefijo
+        static void Ejercicio4()
+        {
+            Console.WriteLine("\nOperador de decremento de prefijo (--a)");
+            double a = 1.5;
+            Console.WriteLine(a);
+            Console.WriteLine(--a);
+            Console.WriteLine(a);
+        }
     }
 }
