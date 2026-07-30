@@ -49,7 +49,7 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(i);
         }
 
-        // 4. Operador de decremento de prefijo
+        // 4. Operador de decremento de prefijo.
         static void Ejercicio4()
         {
             Console.WriteLine("\nOperador de decremento de prefijo (--a)");
