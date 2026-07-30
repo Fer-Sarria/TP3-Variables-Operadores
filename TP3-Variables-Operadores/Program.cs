@@ -20,7 +20,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio7();
             //Ejercicio8();
             //Ejercicio9();
-            Ejercicio10();
+            //Ejercicio10();
+            Ejercicio11();
         }
 
         static void Ejercicio1()
@@ -127,6 +128,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(5 + 4);
             Console.WriteLine(5 + 4.3);
             Console.WriteLine(5.1m + 4.2m);
+        }
+
+        // 11. Operador de Resta
+        static void Ejercicio11()
+        {
+            Console.WriteLine("\nResta");
+            Console.WriteLine(47 - 3);
+            Console.WriteLine(5 - 4.3);
+            Console.WriteLine(7.5m - 2.3m);
         }
 
     }
