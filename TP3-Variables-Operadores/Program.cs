@@ -139,5 +139,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(7.5m - 2.3m);
         }
 
+        // 12. Operador de resto con punto flotante. ¿Cuál es el resultado obtenido en cada caso?
+        static void Ejercicio12()
+        {
+            Console.WriteLine("\nResto punto flotante");
+            Console.WriteLine(-5.2f % 2.0f);
+            Console.WriteLine(5.9 % 3.1);
+            Console.WriteLine(5.9m % 3.1m);
+        }
+
+
     }
 }
