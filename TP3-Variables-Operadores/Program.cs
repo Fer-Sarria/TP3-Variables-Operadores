@@ -5,6 +5,8 @@
 // Console.WriteLine(i);
 
 using System;
+using System.ComponentModel;
+using System.Runtime.ConstrainedExecution;
 namespace TP3_Variables_Operadores
 {
     internal class Program
@@ -32,7 +34,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio19();
             //Ejercicio20();
             //Ejercicio21();
-            Ejercicio22();
+            //Ejercicio22();
+            Ejercicio23();
         }
 
         static void Ejercicio1()
@@ -275,6 +278,48 @@ namespace TP3_Variables_Operadores
 
             bool b = false || SecondOperand();
             Console.WriteLine(b);
+        }
+
+        // 23. Para cada uno de los ejercicios idee un algoritmo en C# que implemente el uso del
+        //operador estudiado.Este algoritmo debe ser una implementación sencilla y solo
+        //contener lógica basada en lo que hemos aprendido.
+        static void Ejercicio23()
+        {
+            Console.WriteLine("\nAlgoritmo Interactivo de Operadores");
+
+            // 1. Entrada de datos: Le pedimos dos números al usuario
+            Console.Write("Ingrese el primer número entero (A): ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese el segundo número entero (B): ");
+            int b = int.Parse(Console.ReadLine());
+
+            // 2. Aplicamos Operadores Matemáticos
+            Console.WriteLine("\n--- Operaciones Matemáticas ---");
+            Console.WriteLine($"Suma (A + B): {a + b}");
+            Console.WriteLine($"Resta (A - B): {a - b}");
+            Console.WriteLine($"Multiplicación (A * B): {a * b}");
+
+            // Validamos que no divida por cero para evitar que se rompa
+            if (b != 0)
+            {
+                Console.WriteLine($"División Entera (A / B): {a / b}");
+                Console.WriteLine($"Operador de Resto (A % B): {a % b}");
+            }
+
+            // 3. Aplicamos Operadores Relacionales (Devuelven True o False)
+            Console.WriteLine("\n--- Operaciones Relacionales ---");
+            Console.WriteLine($"¿A es Mayor que B? (A > B): {a > b}");
+            Console.WriteLine($"¿A es Exactamente Igual a B? (A == B): {a == b}");
+
+            // 4. Aplicamos Operadores Lógicos (&&)
+            Console.WriteLine("\n--- Validación Lógica ---");
+            Console.Write("¿Tenés más de 18 años? (true/false): ");
+            bool esMayor = bool.Parse(Console.ReadLine());
+
+            // Combinamos una condición relacional y una lógica
+            bool puedeIngresar = (a > b) && esMayor;
+            Console.WriteLine($"¿Puede ingresar? (¿A > B? Y además ¿Es Mayor?): {puedeIngresar}");
         }
 
     }
