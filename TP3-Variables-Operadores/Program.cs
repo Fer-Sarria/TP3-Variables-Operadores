@@ -35,7 +35,7 @@ namespace TP3_Variables_Operadores
             //Ejercicio20();
             //Ejercicio21();
             //Ejercicio22();
-            Ejercicio23();
+            //Ejercicio23();
         }
 
         static void Ejercicio1()
