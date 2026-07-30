@@ -16,7 +16,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio3();
             //Ejercicio4();
             //Ejercicio5();
-            Ejercicio6();
+            //Ejercicio6();
+            Ejercicio7();
         }
 
         static void Ejercicio1()
@@ -85,6 +86,16 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(5 * 2);
             Console.WriteLine(0.5 * 2.5);
             Console.WriteLine(0.1m * 23.4m);
+        }
+
+        // 7. Operador de división de enteros.¿Cuál es el resultado obtenido en cada caso?
+        static void Ejercicio7()
+        {
+            Console.WriteLine("\nDivisión de enteros");
+            Console.WriteLine(13 / 5);
+            Console.WriteLine(-13 / 5);
+            Console.WriteLine(13 / -5);
+            Console.WriteLine(-13 / -5);
         }
 
     }
