@@ -25,7 +25,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio12();
             //Ejercicio13();
             //Ejercicio14();
-            Ejercicio15();
+            //Ejercicio15();
+            Ejercicio16();
         }
 
         static void Ejercicio1()
@@ -185,6 +186,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(7.0 > 5.1);
             Console.WriteLine(5.1 > 5.1);
             Console.WriteLine(0.0 > 5.1);
+        }
+
+        // 16. Operador menor o igual que. ¿Cuáles son los valores de las siguientes operaciones?
+        static void Ejercicio16()
+        {
+            Console.WriteLine("\nMenor o igual que");
+            Console.WriteLine(7.0 <= 5.1);
+            Console.WriteLine(5.1 <= 5.1);
+            Console.WriteLine(0.0 <= 5.1);
         }
 
 
