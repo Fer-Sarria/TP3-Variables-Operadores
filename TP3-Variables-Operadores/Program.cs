@@ -206,6 +206,19 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(0.0 >= 5.1);
         }
 
+        // 18. Operador de igualdad. ¿Cuáles son los resultados de estas operaciones?
+        static void Ejercicio18()
+        {
+            Console.WriteLine("\nIgualdad");
+            int a = 1 + 2 + 3;
+            int b = 6;
+            Console.WriteLine(a == b);
+            char c1 = 'a';
+            char c2 = 'A';
+            Console.WriteLine(c1 == c2);
+            Console.WriteLine(c1 == char.ToLower(c2));
+        }
+
 
     }
 }
