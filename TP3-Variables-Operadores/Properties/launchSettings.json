@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TP3-Variables-Operadores": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
