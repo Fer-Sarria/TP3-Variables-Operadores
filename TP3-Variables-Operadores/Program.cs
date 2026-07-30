@@ -23,7 +23,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio10();
             //Ejercicio11();
             //Ejercicio12();
-            Ejercicio13();
+            //Ejercicio13();
+            Ejercicio14();
         }
 
         static void Ejercicio1()
@@ -165,6 +166,15 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(a);
             a %= 3;
             Console.WriteLine(a);
+        }
+
+        // 14. Operador menor que. ¿Cuáles son los valores de las siguientes operaciones?
+        static void Ejercicio14()
+        {
+            Console.WriteLine("\nMenor que");
+            Console.WriteLine(7.0 < 5.1);
+            Console.WriteLine(5.1 < 5.1);
+            Console.WriteLine(0.0 < 5.1);
         }
 
 
