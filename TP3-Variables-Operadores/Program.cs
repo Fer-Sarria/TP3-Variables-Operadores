@@ -12,7 +12,10 @@ namespace TP3_Variables_Operadores
         static void Main(string[] args)
         {
             //Ejercicio1();
-            Ejercicio2();
+            //Ejercicio2();
+            //Ejercicio3();
+            //Ejercicio4();
+            Ejercicio5();
         }
 
         static void Ejercicio1()
@@ -58,5 +61,21 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(--a);
             Console.WriteLine(a);
         }
+
+        // 5. Operador unario + y -. ¿Qué hacen los operadores - y +?¿Cual es el tipo de dato de b?
+
+        static void Ejercicio5()
+        {
+            Console.WriteLine("\nOperador unario + y -");
+            int numero = 4;
+            Console.WriteLine(+numero);
+            Console.WriteLine(-numero);
+            Console.WriteLine(-(-numero));
+            uint a = 5;
+            var b = -a;
+            Console.WriteLine(b);
+            Console.WriteLine(b.GetType());
+        }
+
     }
 }
