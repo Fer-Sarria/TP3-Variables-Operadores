@@ -30,7 +30,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio17();
             //Ejercicio18();
             //Ejercicio19();
-            Ejercicio20();
+            //Ejercicio20();
+            Ejercicio21();
         }
 
         static void Ejercicio1()
@@ -247,6 +248,21 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(!true);
         }
 
+        // 21. Operador de producto lógico. ¿Cuáles son los resultados de las siguientes operaciones?
+        static void Ejercicio21()
+        {
+            Console.WriteLine("\nProducto lógico (AND)");
+            bool a = false && SecondOperand();
+            Console.WriteLine(a);
+            bool b = true && SecondOperand();
+            Console.WriteLine(b);
+        }
+
+        static bool SecondOperand()
+        {
+            Console.WriteLine("Second operand is evaluated.");
+            return true;
+        }
 
     }
 }
