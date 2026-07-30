@@ -26,7 +26,10 @@ namespace TP3_Variables_Operadores
             //Ejercicio13();
             //Ejercicio14();
             //Ejercicio15();
-            Ejercicio16();
+            //Ejercicio16();
+            //Ejercicio17();
+            //Ejercicio18();
+            Ejercicio19();
         }
 
         static void Ejercicio1()
@@ -217,6 +220,21 @@ namespace TP3_Variables_Operadores
             char c2 = 'A';
             Console.WriteLine(c1 == c2);
             Console.WriteLine(c1 == char.ToLower(c2));
+        }
+
+        // 19. Operador de desigualdad. ¿Cuáles son los resultados de estas operaciones?
+        static void Ejercicio19()
+        {
+            Console.WriteLine("\nDesigualdad");
+            int a = 1 + 1 + 2 + 3;
+            int b = 6;
+            Console.WriteLine(a != b);
+            string s1 = "Hello";
+            string s2 = "Hello";
+            Console.WriteLine(s1 != s2);
+            object o1 = 1;
+            object o2 = 1;
+            Console.WriteLine(o1 != o2);
         }
 
 
