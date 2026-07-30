@@ -11,7 +11,8 @@ namespace TP3_Variables_Operadores
     {
         static void Main(string[] args)
         {
-            Ejercicio1();
+            //Ejercicio1();
+            Ejercicio2();
         }
 
         static void Ejercicio1()
@@ -22,6 +23,17 @@ namespace TP3_Variables_Operadores
             Console.WriteLine(i);
             Console.WriteLine(i++);
             Console.WriteLine(i);
+        }
+
+        // 2. Operador de incremento de prefijo. ¿Qué sucede con ++a?
+        static void Ejercicio2()
+        {
+            Console.WriteLine("\nOperador de incremento de prefijo (++a)");
+
+            double a = 1.5;
+            Console.WriteLine(a);
+            Console.WriteLine(++a);
+            Console.WriteLine(a);
         }
     }
 }
