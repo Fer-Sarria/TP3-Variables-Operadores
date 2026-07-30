@@ -29,7 +29,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio16();
             //Ejercicio17();
             //Ejercicio18();
-            Ejercicio19();
+            //Ejercicio19();
+            Ejercicio20();
         }
 
         static void Ejercicio1()
@@ -235,6 +236,15 @@ namespace TP3_Variables_Operadores
             object o1 = 1;
             object o2 = 1;
             Console.WriteLine(o1 != o2);
+        }
+
+        // 20. Operador de negación lógica. ¿Cuáles son los resultados de las siguientes operaciones?
+        static void Ejercicio20()
+        {
+            Console.WriteLine("\nNegación lógica");
+            bool passed = false;
+            Console.WriteLine(!passed);
+            Console.WriteLine(!true);
         }
 
 
