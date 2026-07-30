@@ -15,7 +15,8 @@ namespace TP3_Variables_Operadores
             //Ejercicio2();
             //Ejercicio3();
             //Ejercicio4();
-            Ejercicio5();
+            //Ejercicio5();
+            Ejercicio6();
         }
 
         static void Ejercicio1()
@@ -75,6 +76,15 @@ namespace TP3_Variables_Operadores
             var b = -a;
             Console.WriteLine(b);
             Console.WriteLine(b.GetType());
+        }
+
+        // 6. Operador de multiplicación
+        static void Ejercicio6()
+        {
+            Console.WriteLine("\nMultiplicación");
+            Console.WriteLine(5 * 2);
+            Console.WriteLine(0.5 * 2.5);
+            Console.WriteLine(0.1m * 23.4m);
         }
 
     }
